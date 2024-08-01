@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url(netflix-image.jpg);
+    height: 60vh;
+}
+body{
+    background-color: black;
+}
+
+.main.box {
+    height: 70vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+   background-size:max(1200px-100vw) ;
+    opacity: 0.90;
+    background-color: black;
+}
+
+ span img {
+    width: 145px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+/*  nav is main fiel in  thi website   */
+nav {
+    display: flex;
+    max-width: 60vh;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+button {
+    position: relative;
+    z-index: 10;
+    outline: 0;
+    cursor: pointer;
+    
+}
+/*  hero is crad in htlm */
+.hero {
+    display: flex;
+    height: 100%;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding:0px 30px;
+    gap: 20px;
+
+}
+.hero> :nth-child(1){
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+ .btn{
+     padding: 3px 8px;
+     font-weight: bold;
+     color:rgb(239, 238, 236);
+     background: black;
+ }
+
+.btn-red{
+    color:#fff;
+    padding: 3px 8px;
+    background-color: red;
+    border: none;
+
+}
+.btn-reds{
+    color:#fff;
+    padding: 0.5rem 2rem;
+    background-color: rgb(8, 69, 79);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+input{
+      border: none;
+      background:rgb(23,23,23,0.50);
+      padding: 0.5rem 2rem;
+      border-radius: 4px;
+
+    }
+
+    .faatures{
+        padding: 50px 12%;
+        font-size: 22px;
+    
+    }
+     .row{
+        display: flex;
+        align-items: center;
+        padding: 50px 0;
+        justify-content: space-between;
+
+
+     }
+     .text-col{
+        flex-basis: 50%;
+        margin-bottom: 20px;
+     }
+    
+     .img-col{
+        flex-basis : 50%;
+        margin-bottom: 20px;
+     }
+     .img-col{
+        display:block;
+        margin: auto;
+        width: 90%;
+
+     }
+     h1{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #fff;
+     }
+     p{
+        color: #fff;
+        font-size: 20px;
+     }
+      img{
+        width: 500px;
+        border-radius:20px;
+       
+      }
+    
